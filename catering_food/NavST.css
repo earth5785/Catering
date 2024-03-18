@@ -1,0 +1,12 @@
+/*แท็ปบาข้างบน*/
+.navbar-nav .nav-link:hover {
+    color: #fff; /* เปลี่ยนสีข้อความเมื่อโฮเวอร์ที่เมนู */
+    background-color: #FFA500; /* เปลี่ยนสีพื้นหลังของเมนูเมื่อโฮเวอร์ */
+}
+
+.navbar-custom {
+    background-color: #FFA500; /* เปลี่ยนสีพื้นหลังของ Navbar เป็นสีส้ม */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.8); /* เพิ่มเอฟเฟก์ต์ shadow */
+}
+
+

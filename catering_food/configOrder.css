@@ -1,0 +1,27 @@
+/* สไตล์สำหรับตาราง */
+table {
+    width: 350px;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+/* สไตล์สำหรับรูปภาพ */
+.thumbnail {
+    width: 100px;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+
