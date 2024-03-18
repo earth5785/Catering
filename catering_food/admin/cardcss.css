@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap");
+* {
+  box-sizing: border-box;
+}
+
+form { 
+    display: none; 
+    position: absolute;
+    background-color: white;
+    padding: 40px; 
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    z-index: 2;
+    width: 50%; 
+    left: 25%; /* ให้ฟอร์มอยู่ตรงกลาง */
+}
+
+
+#closeFormBtn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+}
+
+credit-card input {
+    width: 100%;
+}
+
+.button-container {
+    display: flex;
+    justify-content: flex-end; /* จัดให้อยู่ทางขวาของ container */
+    gap: 10px; /* ระยะห่างระหว่างปุ่ม */
+    position: fixed;
+    top: 10px; /* ระยะห่างด้านบน */
+    right: 10px; /* ระยะห่างด้านขวา */
+}
+
+.button-contron {
+    display: flex;
+    justify-content: flex-start; /* จัดให้อยู่ทางซ้ายของ container */
+    gap: 10px; /* ระยะห่างระหว่างปุ่ม */
+    position: fixed;
+    top: 10px; /* ระยะห่างด้านบน */
+    left: 10px; /* ระยะห่างด้านซ้าย */
+}
+
+button {
+    height: 2.75em;
+    font-size: 1em;
+    font-family: Raleway, Helvetica, sans-serif;
+    background-color: #e7ca0d;
+    border: none;
+    color: #000000;
+    border-radius: 0.25em;
+    margin: 0.25em 0 0 0;
+    padding: 0.5em;
+}
+
+button:hover,
+button:focus {
+    background-color: rgb(235, 98, 0);
+}
+
+
+
+.col1{
+    
+    text-align: right;
+    width: 100px;
+}
+
+.col2{
+    position: relative;
+    left: 10px;
+}
+
+
+.warning-text {
+    color: red;
+    font-size: 0.8em;
+}
+
+
