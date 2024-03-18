@@ -1,0 +1,60 @@
+
+.popup-container {
+    display: none; /* ซ่อน Pop Up เริ่มต้น */
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.5); /* สีพื้นหลังที่ทับซ้อน */
+    padding: 20px;
+    border-radius: 5px;
+    width: 1050px;
+    z-index: 1000; /* ให้ Pop Up อยู่ด้านหน้า */
+}
+
+.popup-content {
+    text-align: center;
+    position: relative;
+    padding: 20px;
+    border-radius: 10px;
+    z-index: 1001;
+    position: relative;
+    width: 75%; /* Set width to 75% */
+    max-width: 600px; /* Optional: You can set a maximum width if needed */
+}
+
+.popup-container.show-popup {
+    display: flex; /* แสดง Pop Up เมื่อมีคลาส show-popup */
+}
+
+.popup-content table {
+    width: 950px;
+    border: none;
+    background-color: rgb(236, 234, 231);
+}
+
+.popup-content td {
+    vertical-align: top;
+}
+
+.popup-content img {
+    max-width: 350px;
+}
+
+.close-button {
+    position: absolute;
+    font-size: 20px;
+    cursor: pointer;
+    background: none;
+    border: none;
+}
+
+.food-details {
+    padding: 10px;
+}
+
+#popup-description {
+    text-align: left; /* กำหนดให้ชิดซ้าย */
+}
+
+

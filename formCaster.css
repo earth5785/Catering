@@ -1,0 +1,49 @@
+body {
+    background-color: #f9f8f4; /* Light grey */
+}
+
+
+
+/* Form styles */
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white; /* White background */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Light shadow */
+}
+
+/* Form input styles */
+form input[type="text"],
+form input[type="email"],
+form input[type="tel"],
+form input[type="date"],
+form input[type="number"] {
+    width: 100%;
+    padding: 8px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+/* Submit button styles */
+form input[type="submit"],
+form input[type="button"] {
+    width: 100%;
+    padding: 10px;
+    color: white;
+    background-color: #007bff; /* Blue */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Reset button styles */
+form input[type="reset"] {
+    width: 100%;
+    padding: 10px;
+    color: white;
+    background-color: #dc3545; /* Red */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
